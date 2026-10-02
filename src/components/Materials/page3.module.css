@@ -1,0 +1,48 @@
+
+.Materials3{
+    max-width:100%;
+    height: auto;
+   
+    margin-top: 15em;
+}
+
+.material3_heading h4{
+    color: orange;
+    font-weight: 600;
+    letter-spacing: 0.3rem;
+}
+
+.material3_heading h1{
+    font-family: 'gilroy-bold';
+
+}
+
+.material3_heading{
+    text-align: center;
+    margin-bottom: 3em;
+    line-height: 2.5rem;
+}
+
+
+
+.materialcard{
+    background-image: url(https://imgs.search.brave.com/P9opzfvffUgJri32SrLB5YSy5S70oIT3-arNb_3bsOI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMjE1/NTIwMTIyNS92ZWN0/b3IvcHJvZmlsZS12/aWV3LW9mLWEtbWFu/LXdpdGgtYS1idXNp/bmVzc21hbi1zaXR0/aW5nLWluc2lkZS1o/aXMtaGVhZC10aGlu/a2luZy5qcGc_cz02/MTJ4NjEyJnc9MCZr/PTIwJmM9ekJPb2Vo/N0VqNVg4YlFWVHZI/dzdielVoaG0zT1lJ/ajRqYXRLdEJud3JU/bz0);
+    border-radius: 15px;
+    width: 350px;
+    height: 450px;
+
+}
+
+.card{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    overflow-x: auto;
+    scrollbar-width: none;
+    padding: 50px;
+    gap: 30px;
+}
+
+.materialdiv{
+    background-color: white;
+    
+}

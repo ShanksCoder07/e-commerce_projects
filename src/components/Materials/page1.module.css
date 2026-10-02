@@ -1,0 +1,50 @@
+.section4{
+    width: 100%;
+    
+}
+
+.s4p1{
+    display: flex;
+
+}
+
+.s4p1 img{
+    width: 629px;
+    height: 445px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    box-shadow: 0 15px 15px 10px rgba(0, 0, 0, 0.3);
+
+}
+
+.innerp1{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.innerp1 h4{
+    color: orange;
+    font-size: 1.2rem;
+    letter-spacing: 3px;
+}
+
+.innerp1 h1{
+    font-size: 2.5rem;
+}
+
+.innerp1 h3{
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 35px;
+}
+
+.innerp1 h5{
+    color: orange;
+
+}
+
+.gap{
+    width: 10%;
+}

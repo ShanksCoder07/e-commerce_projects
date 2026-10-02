@@ -1,0 +1,17 @@
+.navbar{
+    width: 100%;
+    padding: 25px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    color: white;
+    
+}
+
+.tab{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 40px;
+}

@@ -1,0 +1,22 @@
+@import url('https://fonts.cdnfonts.com/css/gilroy-bold');
+:root{
+    --primary: orange;
+    
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy-Regular';
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+
