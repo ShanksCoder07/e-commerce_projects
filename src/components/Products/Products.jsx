@@ -30,6 +30,34 @@ const Section3 = () => {
     name:"Sakarias chair",
     rating:4,
     price:124
+  },{
+    type:"Chair",
+    name:"Sakarias chair",
+    rating:4,
+    price:124
+  },
+{
+    type:"Tables",
+    name:"Sakarias chair",
+    rating:4,
+    price:124
+  },
+{
+    type:"Chair",
+    name:"Sakarias chair",
+    rating:4,
+    price:124
+  },
+{
+    type:"Bed",
+    name:"Sakarias chair",
+    rating:4,
+    price:124
+  }, {
+    type:"Lamp",
+    name:"Sakarias chair",
+    rating:4,
+    price:124
   }]
 
   const [category,setcategory] = useState("All");
@@ -38,15 +66,15 @@ const Section3 = () => {
                         product : product.filter((item) => item.type === category);
  
   return (
-    <div className={styles.product}>
-        <h2>Best Selling Product</h2>
+    <div className={styles.productsection}>
+        <h1>Best Selling Product</h1>
         <div className={styles.productcategory}>
             
-              <button onClick={()=> setcategory("All")}>All</button>
-              <button onClick={()=> setcategory("Chair")}>Chair</button>
-              <button onClick={()=> setcategory("Bed")}>Bed</button>
-              <button onClick={()=> setcategory("Lamp")}>Lamp</button>
-              <button onClick={()=> setcategory("Tables")}>Table</button>
+              <button onClick={()=> setcategory("All") } className={category === "All" ? styles.btn_pressed : styles.btn_default}>All</button>
+              <button onClick={()=> setcategory("Chair")} className={category === "Chair" ? styles.btn_pressed : styles.btn_default}>Chair</button>
+              <button onClick={()=> setcategory("Bed")} className={category === "Bed" ? styles.btn_pressed : styles.btn_default}>Bed</button>
+              <button onClick={()=> setcategory("Lamp")} className={category === "Lamp" ? styles.btn_pressed : styles.btn_default}>Lamp</button>
+              <button onClick={()=> setcategory("Tables")} className={category === "Tables" ? styles.btn_pressed : styles.btn_default}>Table</button>
           
         </div>
 
@@ -56,10 +84,12 @@ const Section3 = () => {
         {filterproduct.map((item,idx)=>(
 
           <div key = {idx}  className={styles.productcard}>
-          <img src="https://imgs.search.brave.com/PM3Mb1EuEoNU2dSbt_xo8ByhWexRy50EBSm7Qe7PmrU/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTc5/MDI2ODI2L3Bob3Rv/L2NoYWlyLW9uLXN0/YWdlLmpwZz9zPTYx/Mng2MTImdz0wJms9/MjAmYz1sLUNvSGU3/TlFYZkhYb3dvbFlu/VDllWWE2UUZwcUtx/VXFxekE1RVdBY0FV/PQ" alt="" />
+          <img src="https://imgs.search.brave.com/6NJTvc0JsEezEpFILoszkmaWJd-qxaeKdpL5yBwLM-4/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/bWFnbmlmaWMuY29t/L3ByZW1pdW0tcGhv/dG8vZ3JleS1jb21m/b3J0YWJsZS1hcm1j/aGFpci1pc29sYXRl/ZC13aGl0ZS1iYWNr/Z3JvdW5kXzkyNjE5/OS0xOTU4OTE2Lmpw/Zz9zZW10PWFpc19o/eWJyaWQmdz03NDAm/cT04MA" alt="" />
+          <div className={styles.cardcontent}>
           <h5>{item.type}</h5>
           <h3>{item.name}</h3>
-          <h3>{item.price}</h3>
+          <h3>${item.price} <span>+</span></h3>
+          </div>
           </div>
         
 
