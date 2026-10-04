@@ -87,7 +87,12 @@ button:hover{
     gap: 15px;
     padding:0 25px;
     padding-bottom: 25px;
-    font-weight: 600;
+}
+
+.cardcontent h3{
+    margin: 0;
+    font-family: 'gilroy-regular';
+    font-weight: 700;
 }
 
 .cardcontent span{
@@ -113,3 +118,6 @@ button:hover{
     height: 320px;
     object-fit: cover;
 }
+
+
+
