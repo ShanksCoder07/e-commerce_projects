@@ -40,7 +40,7 @@ const Material3 = () => {
         <div key={item.id}  className={style.materialcard}>
 
             
-                <img src="https://www.gettyimages.in/photos/people-profile-silhouette" alt="" height={50} />
+                <img src="https://www.gettyimages.in/photos/people-profile-silhouette" alt="" />
                 <div className="materialdiv">
                 <h4>{item.name}</h4>
                 <span>{item.address}</span>

@@ -30,7 +30,7 @@
     border-radius: 15px;
     width: 350px;
     height: 450px;
-
+    position: relative;
 }
 
 .card{
@@ -43,6 +43,9 @@
 }
 
 .materialdiv{
+    position:absolute;
     background-color: white;
-    
+    color: white;
+    z-index: 1;
+    top: 100%;
 }
