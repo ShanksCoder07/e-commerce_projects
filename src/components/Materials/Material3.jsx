@@ -39,9 +39,9 @@ const Material3 = () => {
 
         <div key={item.id}  className={style.materialcard}>
 
-            
+                <div className={style.materialdiv}>
                 <img src="https://www.gettyimages.in/photos/people-profile-silhouette" alt="" />
-                <div className="materialdiv">
+
                 <h4>{item.name}</h4>
                 <span>{item.address}</span>
                 <p>{item.comments}</p>
@@ -53,6 +53,7 @@ const Material3 = () => {
         </div>
     </div>
   )
+
 }
 
 export default Material3

@@ -1,7 +1,7 @@
 
 .Materials3{
     max-width:100%;
-    height: auto;
+    height: 90vh;
    
     margin-top: 15em;
 }
@@ -31,21 +31,27 @@
     width: 350px;
     height: 450px;
     position: relative;
+    flex:0 0 auto;
+    scroll-snap-align: start;
 }
 
 .card{
-    display: grid;
-    grid-template-columns: repeat(5,1fr);
+    width: 75%;
+    display: flex;
+    margin: 0 auto; /* centers the .card container by giving auto margin to right and left */
     overflow-x: auto;
     scrollbar-width: none;
-    padding: 50px;
+    scroll-snap-type: x mandatory;
     gap: 30px;
 }
 
 .materialdiv{
-    position:absolute;
+    position: absolute;
+    left: 50%;
+    bottom: 15px;
+    transform: translateX(-50%);/*moves the .material div to left side by half of its width*/
+    padding: 25px;
+    width: 90%;
     background-color: white;
-    color: white;
-    z-index: 1;
-    top: 100%;
+    border-radius: 15px;
 }
