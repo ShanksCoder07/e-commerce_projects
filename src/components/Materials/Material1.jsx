@@ -17,7 +17,7 @@ const Section4 = () => {
                 You don’t have to worry about the result because all of these <br /> interiors are made by the people who are professionals in their fields <br /> with an elegant and lucurious style and with premium quality <br /> materials
             </h3>
 
-            <h5>More info  </h5>
+            <h5>More info ---&gt; </h5>
             </div>
         </div>
 

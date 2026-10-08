@@ -26,8 +26,9 @@
 
 
 .materialcard{
-    background-image: url(https://imgs.search.brave.com/P9opzfvffUgJri32SrLB5YSy5S70oIT3-arNb_3bsOI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMjE1/NTIwMTIyNS92ZWN0/b3IvcHJvZmlsZS12/aWV3LW9mLWEtbWFu/LXdpdGgtYS1idXNp/bmVzc21hbi1zaXR0/aW5nLWluc2lkZS1o/aXMtaGVhZC10aGlu/a2luZy5qcGc_cz02/MTJ4NjEyJnc9MCZr/PTIwJmM9ekJPb2Vo/N0VqNVg4YlFWVHZI/dzdielVoaG0zT1lJ/ajRqYXRLdEJud3JU/bz0);
-    border-radius: 15px;
+    background-image: url(https://imgs.search.brave.com/lqOb3Yuco-kdlrONOZv0spqDC_2GhxcDgsZDgJ4-7so/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5kZXNpZ25jYWZl/LmNvbS93cC1jb250/ZW50L3VwbG9hZHMv/MjAxOS8xMi8xNzA1/NTM1Mi9zaGFiYnkt/Y2hpYy1saXZpbmct/cm9vbS1pbnRlcmlv/ci5qcGc);
+    object-fit: cover;
+    border-radius: 25px;
     width: 350px;
     height: 450px;
     position: relative;
@@ -46,12 +47,55 @@
 }
 
 .materialdiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align:center;
+    align-items: center;
     position: absolute;
     left: 50%;
     bottom: 15px;
     transform: translateX(-50%);/*moves the .material div to left side by half of its width*/
-    padding: 25px;
     width: 90%;
     background-color: white;
     border-radius: 15px;
+    line-height: 2rem;
+    padding: 0 2rem 3rem;
+}
+
+.materialdiv::before{
+    content: '';
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    z-index: -1;
+    border-radius:50%;
+    position: absolute;
+    top: 0;
+    transform: translateY(-34px);
+    
+}
+
+.materialdiv img:first-child{
+    height: 55px;
+    width: 55px;
+    box-shadow: 0 10px 15px rgb(0, 0, 0,0.3);
+    border-radius: 50%;
+    transform: translateY(-25px);
+    
+}
+
+.materialdiv h3{
+    font-family: 'gilroy-medium';
+    font-weight: 900;
+}
+
+.materialdiv span{
+    font-size: 0.85rem;
+    line-height: 1rem;
+}
+
+.materialdiv p{
+    line-height: 1.4rem;
+    margin-top: 1rem;
 }

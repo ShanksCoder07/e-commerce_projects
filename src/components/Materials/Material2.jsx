@@ -13,7 +13,7 @@ const Section5 = () => {
                     Because panto was very serious about designing furniture for our <br /> environment, using a very expensive and famous capital but at a <br /> relatively low price
                 </p>
 
-                <h4>More Info</h4>
+                <h4>More Info ---&gt;</h4>
             </div>
             <div className={styles.left}>
                 <div className={styles.ls1}>

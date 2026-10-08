@@ -1,10 +1,11 @@
 .copyrightbox{
-    background-color:rgb(222, 221, 221);
+    background-color:#F7F7F7;
     max-width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 25px;
+    padding-bottom: 2rem;
 }
 
 .copyrightbox h4:first-child{

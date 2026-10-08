@@ -95,7 +95,9 @@ const Section3 = () => {
 
          ))}
          </div>
+         
          </div>
+         <h4>View All ---&gt;</h4>
     </div>
   )
 }
