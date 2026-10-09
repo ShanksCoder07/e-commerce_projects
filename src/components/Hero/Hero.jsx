@@ -9,7 +9,7 @@ const Hero = () => {
         <Nav />
      
         <div className={styles.written}>
-        
+       
 
         <h1>Make Your Interior More 
           Minimalistic & Modern</h1>
