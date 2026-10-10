@@ -16,7 +16,7 @@
 
 
 .written{
-    width: 50%;
+    width: min(50%,800px);
     display: flex;
     flex-direction: column;
     justify-content: center;
