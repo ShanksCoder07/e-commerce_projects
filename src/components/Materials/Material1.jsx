@@ -1,6 +1,6 @@
 import styles from './page1.module.css'
 
-const Section4 = () => {
+const Material1 = () => {
   return (
     <div className={styles.section4}>
         <div className={styles.s4p1}>
@@ -27,4 +27,4 @@ const Section4 = () => {
   )
 }
 
-export default Section4
+export default Material1

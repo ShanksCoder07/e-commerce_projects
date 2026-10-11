@@ -1,6 +1,6 @@
 import styles from './page2.module.css'
 
-const Section5 = () => {
+const Material2 = () => {
     return (
         <div className={styles.material2}>
             <div className={styles.materialcontent}>
@@ -10,7 +10,7 @@ const Section5 = () => {
                     Very Serious   Materials For Making  Furniture
                 </h1>
                 <p>
-                    Because panto was very serious about designing furniture for our <br /> environment, using a very expensive and famous capital but at a <br /> relatively low price
+                    Because panto was very serious about designing furniture for our  environment, using a very expensive and famous capital but at a  relatively low price
                 </p>
 
                 <h4>More Info ---&gt;</h4>
@@ -27,4 +27,4 @@ const Section5 = () => {
     )
 }
 
-export default Section5
+export default Material2
