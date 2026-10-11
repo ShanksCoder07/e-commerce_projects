@@ -1,50 +1,65 @@
-.section4{
+.material1{
     max-width: 100%;
     margin-top: 15rem;
+    display: grid;
+    grid-template-columns: 0.9fr 1fr ;
+    grid-template-areas: "img content ";
+    gap: 4rem;
 }
 
-.s4p1{
-    display: flex;
-
+.materialimg{
+    max-width: 100%;
+    grid-area: img;
 }
 
-.s4p1 img{
-    width: 629px;
-    height: 445px;
+.materialimg img{
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
     box-shadow: 0 15px 15px 10px rgba(0, 0, 0, 0.3);
 
 }
 
-.innerp1{
-    width: 50%;
+.materialcontent{
+    grid-area: content;
+    width: 100%;
     display: flex;
+    justify-content: center;
     flex-direction: column;
-    gap: 15px;
+    padding-right: 25px;
+    gap: 25px;
+    
 }
 
-.innerp1 h4{
+.materialcontent h4{
     color: orange;
     font-size: 1.2rem;
+    font-family: 'gilroy-regular';
+    font-weight: 600;
     letter-spacing: 3px;
 }
 
-.innerp1 h1{
-    font-size: 2.5rem;
+.materialcontent h1{
+    font-size: 2.9rem;
+    font-family: 'gilroy-bold';
+    font-weight: 900;
+    width:100%;
+    max-width:450px
 }
 
-.innerp1 h3{
-    font-weight: 400;
+.materialcontent h3{
+    font-weight: 500;
     font-size: 1.2rem;
-    line-height: 35px;
+    line-height: 2.2rem;
 }
 
-.innerp1 h5{
+.materialcontent h5{
     color: orange;
-
+    font-size: 1.1rem;
+    font-family: 'gilroy-regular';
+    font-weight: 600;
 }
 
-.gap{
-    width: 10%;
-}
+
