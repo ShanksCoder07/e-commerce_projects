@@ -15,7 +15,7 @@ const Material1 = () => {
                     </h1>
 
                     <h3>
-                        You don’t have to worry about the result because all of these  interiors are made by the people who are professionals in their fields with an elegant and lucurious style and with premium quality materials.
+                        You don’t have to Worry about the result because all of these  interiors are made by the people who are professionals in their fields with an elegant and lucurious style and with premium quality materials.
                     </h3>
 
                     <h5>More info ---&gt; </h5>
