@@ -1,6 +1,7 @@
 .copyrightbox{
-    background-color:#F7F7F7;
+    background-color: black;
     max-width: 100%;
+    color: lightgray;
     display: flex;
     justify-content: center;
     align-items: center;

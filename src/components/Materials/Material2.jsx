@@ -16,7 +16,9 @@ const Material2 = () => {
                     Because panto was very serious about designing furniture for our  environment, using a very expensive and famous capital but at a  relatively low price
                 </p>
 
-                <h4 onClick={() => { }}>More Info ---&gt;</h4>
+                <h4 onClick={() => {
+                    
+                }}>More Info ---&gt;</h4>
             </div>
             <div className={styles.materialimages}>
 
