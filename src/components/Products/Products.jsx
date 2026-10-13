@@ -1,65 +1,11 @@
+import { useNavigate } from 'react-router-dom'
 import styles from './product.module.css'
 import {useState} from 'react'
+import product from '../data/product'
 const Section3 = () => {
 
-  const product = [{
-    type:"Chair",
-    name:"Sakarias chair",
-    rating:4,
-    price:124
-  },
-{
-    type:"Tables",
-    name:"Sakarias chair",
-    rating:4,
-    price:124
-  },
-{
-    type:"Chair",
-    name:"Sakarias chair",
-    rating:4,
-    price:124
-  },
-{
-    type:"Bed",
-    name:"Sakarias chair",
-    rating:4,
-    price:124
-  }, {
-    type:"Lamp",
-    name:"Sakarias chair",
-    rating:4,
-    price:124
-  },{
-    type:"Chair",
-    name:"Sakarias chair",
-    rating:4,
-    price:124
-  },
-{
-    type:"Tables",
-    name:"Sakarias chair",
-    rating:4,
-    price:124
-  },
-{
-    type:"Chair",
-    name:"Sakarias chair",
-    rating:4,
-    price:124
-  },
-{
-    type:"Bed",
-    name:"Sakarias chair",
-    rating:4,
-    price:124
-  }, {
-    type:"Lamp",
-    name:"Sakarias chair",
-    rating:4,
-    price:124
-  }]
 
+  const navigate = useNavigate();
   const [category,setcategory] = useState("All");
 
   const filterproduct = category === "All" ? 
@@ -83,7 +29,7 @@ const Section3 = () => {
         <div className={styles.productcardgrid}>
         {filterproduct.map((item,idx)=>(
 
-          <div key = {idx}  className={styles.productcard}>
+          <div key = {idx}  className={styles.productcard} onClick={()=> navigate(`/product/${item.id}`)}>
           <img src="https://imgs.search.brave.com/6NJTvc0JsEezEpFILoszkmaWJd-qxaeKdpL5yBwLM-4/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/bWFnbmlmaWMuY29t/L3ByZW1pdW0tcGhv/dG8vZ3JleS1jb21m/b3J0YWJsZS1hcm1j/aGFpci1pc29sYXRl/ZC13aGl0ZS1iYWNr/Z3JvdW5kXzkyNjE5/OS0xOTU4OTE2Lmpw/Zz9zZW10PWFpc19o/eWJyaWQmdz03NDAm/cT04MA" alt="" />
           <div className={styles.cardcontent}>
           <h5>{item.type}</h5>
