@@ -14,18 +14,23 @@ const App = () => {
 
   return (
     <div>
-
-      <Hero />
-      <Features />
       <Routes>
-        <Route path="/" element={<Product />} />
+        <Route path="/" element={
+          <>
+            <Hero />
+            <Features />
+            <Product />
+            <Material1 />
+            <Material2 />
+            <Material3 />
+            <Footer />
+            <Cpyright />
+          </>
+        }
+        />
         <Route path="/product/:id" element={<Productdetails />} />
       </Routes>
-      <Material1 />
-      <Material2 />
-      <Material3 />
-      <Footer />
-      <Cpyright />
+
     </div>
   )
 }

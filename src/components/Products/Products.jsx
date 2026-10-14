@@ -1,7 +1,7 @@
 import { useNavigate } from 'react-router-dom'
 import styles from './product.module.css'
 import {useState} from 'react'
-import product from '../data/product'
+import product from '../../data/product'
 const Section3 = () => {
 
 
