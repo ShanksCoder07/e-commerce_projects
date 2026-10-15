@@ -8,6 +8,7 @@ const Productdetails = () => {
     
     const products = product.find((item)=> item.id === Number(id) );
 
+    
     if(!products){
       return <h2>page not found</h2>
     }
