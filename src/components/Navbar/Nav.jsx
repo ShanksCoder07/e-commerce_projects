@@ -3,7 +3,7 @@ import {RiRemixLine , RiShoppingBagLine } from "react-icons/ri"
 const Nav = () => {
   return (
     <div className={styles.navbar}>
-       
+      
         <RiRemixLine />
         <div className= {styles.tab}>
             <h4>Furniture</h4>
