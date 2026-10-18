@@ -14,7 +14,7 @@ const Productdetails = () => {
   }
 
   return (
-    
+
     <div className={styles.carddetail}>
       <h3 onClick={() => navigate("/")}>back to product</h3>
       <h1>THis is detail</h1>

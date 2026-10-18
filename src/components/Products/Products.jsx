@@ -1,15 +1,15 @@
 import { useNavigate } from 'react-router-dom'
 import styles from './product.module.css'
-import { useState , useRef} from 'react'
+import { useState, useRef } from 'react'
 import product from '../../data/product'
 const Section3 = () => {
 
   const carouselRef = useRef(null);
-  const scroll = (direction)=>{
+  const scroll = (direction) => {
 
     carouselRef.current.scrollBy({
-      left : direction === "left" ? -300 : 300,
-      behavior : 'smooth'
+      left: direction === "left" ? -300 : 300,
+      behavior: 'smooth'
     });
   };
   const navigate = useNavigate();
@@ -33,8 +33,8 @@ const Section3 = () => {
 
       <div className={styles.productcontainer}>
 
-          <button className={styles.left_btn} onClick={()=> scroll("left")}>←</button>
-        <div className={styles.productcardgrid} ref = {carouselRef}>
+        <button className={styles.left_btn} onClick={() => scroll("left")}>←</button>
+        <div className={styles.productcardgrid} ref={carouselRef}>
           {filterproduct.map((item, idx) => (
 
             <div key={idx} className={styles.productcard} onClick={() => navigate(`/product/${item.id}`)}>
@@ -48,7 +48,7 @@ const Section3 = () => {
 
 
           ))}
-           <button className={styles.right_btn} onClick={()=> scroll("right")}>→</button>
+          <button className={styles.right_btn} onClick={() => scroll("right")}>→</button>
         </div>
 
       </div>
