@@ -1,7 +1,6 @@
 import styles from './hero.module.css'
 import Nav from '../Navbar/Nav'
 
-
 const Hero = () => {
   return (
     <div className={styles.section1}>

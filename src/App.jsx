@@ -9,6 +9,7 @@ import Material2 from './components/Materials/Material2'
 import Material3 from './components/Materials/Material3'
 import Footer from './components/Footer/Footer'
 import Cpyright from './components/Footer/Cpyright'
+import Cartdetail from './components/Navbar/Cartdetail'
 
 const App = () => {
 
@@ -29,6 +30,7 @@ const App = () => {
         }
         />
         <Route path="/product/:id" element={<Productdetails />} />
+        <Route path = "/cart" element={<Cartdetail />}></Route>
       </Routes>
 
     </div>

@@ -1,6 +1,11 @@
 import styles from './Nav.module.css'
 import {RiRemixLine , RiShoppingBagLine } from "react-icons/ri"
+import {useNavigate} from 'react-router-dom'
+
 const Nav = () => {
+
+  const navigate = useNavigate();
+
   return (
     <div className={styles.navbar}>
       
@@ -11,7 +16,7 @@ const Nav = () => {
             <h4>Contact</h4>
             <h4>About us</h4>
         </div>
-        <RiShoppingBagLine />
+        <span onClick={() => navigate('/cart')}><RiShoppingBagLine width={100}/></span>
     </div>
   )
 }
