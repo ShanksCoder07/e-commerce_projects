@@ -5,7 +5,7 @@ const Material2 = () => {
 
     const [specific, setspecific] = useState(false);
     return (
-        <div className={styles.material2}>
+        <section className={styles.material2}>
             <div className={styles.materialcontent}>
 
                 <h3>MATERIALS</h3>
@@ -28,7 +28,7 @@ const Material2 = () => {
                 <img className={styles.img3} src="src/assets/img.png" alt="" />
 
             </div>
-        </div>
+        </section>
     )
 }
 

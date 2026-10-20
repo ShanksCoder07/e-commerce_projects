@@ -6,7 +6,7 @@ import Product from './components/Products/Products'
 import Productdetails from './components/Products/Productdetails'
 import Material1 from './components/Materials/Material1'
 import Material2 from './components/Materials/Material2'
-import Material3 from './components/Materials/Material3'
+import Review from './components/Materials/Review'
 import Footer from './components/Footer/Footer'
 import Cpyright from './components/Footer/Cpyright'
 import Cartdetail from './components/Navbar/Cartdetail'
@@ -23,7 +23,7 @@ const App = () => {
             <Product />
             <Material1 />
             <Material2 />
-            <Material3 />
+            <Review />
             <Footer />
             <Cpyright />
           </>

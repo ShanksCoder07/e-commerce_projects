@@ -2,7 +2,7 @@ import styles from './page1.module.css'
 
 const Material1 = () => {
     return (
-        <div className={styles.material1}>
+        <section className={styles.material1}>
             <div className={styles.materialimg}>
                 <img src="https://imgs.search.brave.com/-x0KIP7MuQEYAkqf9DMAUY-DusyZEvqHed1EJ2RlaXs/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly91YmVy/ZGVjb3IuaW4vY2Ru/L3Nob3AvZmlsZXMv/MzNlZjI3NTMtNDFk/My00MTAyLThjNWYt/OGI4ZGY1ZTNiMGNh/LnBuZz9jcm9wPWNl/bnRlciZoZWlnaHQ9/NjQ1JnY9MTc4NzQ4/MDYxMiZ3aWR0aD02/NDU" alt="" />
             </div>
@@ -22,7 +22,7 @@ const Material1 = () => {
 
             </div>
 
-        </div>
+        </section>
     )
 }
 

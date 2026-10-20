@@ -1,6 +1,6 @@
-import style from './page3.module.css'
+import style from './review.module.css'
 
-const Material3 = () => {
+const Review = () => {
 
     const card = [{
         id: 1,
@@ -33,7 +33,7 @@ const Material3 = () => {
     }];
 
     return (
-        <div className={style.Materials3}>
+        <section className={style.Materials3}>
             <div className={style.material3_heading}>
                 <h4>TESTIMONIALS</h4>
                 <h1>Our Client Reviews</h1>
@@ -56,9 +56,9 @@ const Material3 = () => {
                 ))}
 
             </div>
-        </div>
+        </section>
     )
 
 }
 
-export default Material3
+export default Review
