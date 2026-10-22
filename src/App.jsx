@@ -30,7 +30,7 @@ const App = () => {
         }
         />
         <Route path="/product/:id" element={<Productdetails />} />
-        <Route path = "/cart" element={<Cartdetail />}></Route>
+        <Route path="/cart" element={<Cartdetail />}></Route>
       </Routes>
 
     </div>
