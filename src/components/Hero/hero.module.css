@@ -1,7 +1,4 @@
-
-
-
-.section1{
+.section1 {
     height: 100vh;
     width: 100%;
     background-image: url("src/assets/img.png");
@@ -15,8 +12,8 @@
 
 
 
-.written{
-    width: min(50%,800px);
+.written {
+    width: min(50%, 800px);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -25,34 +22,34 @@
     text-align: center;
     margin: 25px;
     color: white;
-    
+
 }
 
-.written h1{
-    font-family :'gilroy-bold';
+.written h1 {
+    font-family: 'gilroy-bold';
     font-weight: 900;
     font-size: 4rem;
     padding: 25px 0;
 }
 
-.written span{
+.written span {
     line-height: 25px;
     font-weight: 400;
     font-size: 20px;
-    
+
 }
 
-.written input{
+.written input {
     margin: 25px;
     border: 1px solid white;
-    width:40%;
+    width: 40%;
     padding: 13px 20px;
     border-radius: 25px;
     background: rgba(255, 255, 255, 0.3);
     text-align: left;
 }
 
-input::placeholder{
+input::placeholder {
     color: white;
-    
+
 }
