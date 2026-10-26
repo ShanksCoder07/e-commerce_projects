@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import img from '../../assets/img.png'
 import styles from './page2.module.css'
 
 const Material2 = () => {
@@ -23,9 +24,9 @@ const Material2 = () => {
             <div className={styles.materialimages}>
 
 
-                <img className={styles.img2} src="../../assets/img.png" alt="" />
-                <img className={styles.img3} src="../../assets/img.png" alt="" />
-                <img className={styles.img1} src="../../assets/img.png" alt="" />
+                <img className={styles.img2} src={img} alt="" />
+                <img className={styles.img3} src={img} alt="" />
+                <img className={styles.img1} src={img} alt="" />
 
             </div>
         </section>
