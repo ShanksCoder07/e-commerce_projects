@@ -23,9 +23,9 @@ const Material2 = () => {
             <div className={styles.materialimages}>
 
 
-                <img className={styles.img1} src="src/assets/img.png" alt="" />
-                <img className={styles.img2} src="src/assets/img.png" alt="" />
-                <img className={styles.img3} src="src/assets/img.png" alt="" />
+                <img className={styles.img2} src="../../assets/img.png" alt="" />
+                <img className={styles.img3} src="../../assets/img.png" alt="" />
+                <img className={styles.img1} src="../../assets/img.png" alt="" />
 
             </div>
         </section>
