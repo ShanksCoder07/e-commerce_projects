@@ -18,7 +18,7 @@ const Material2 = () => {
                 </p>
 
                 <h4 onClick={() => {
-                    
+
                 }}>More Info ---&gt;</h4>
             </div>
             <div className={styles.materialimages}>
