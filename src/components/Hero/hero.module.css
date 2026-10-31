@@ -27,14 +27,14 @@
 .written h1 {
     font-family: 'gilroy-bold';
     font-weight: 900;
-    font-size: clamp(2rem,4vw,4rem);
+    font-size: clamp(2rem, 4vw, 4rem);
     padding: 25px 0;
 }
 
 .written span {
     line-height: 25px;
     font-weight: 400;
-    font-size: clamp(0.7rem,1.5vw,1.2rem);
+    font-size: clamp(0.7rem, 1.5vw, 1.2rem);
 
 }
 
@@ -53,6 +53,4 @@ input::placeholder {
 
 }
 
-@media (min-width:770px) {
-    
-}
+@media (min-width:770px) {}
