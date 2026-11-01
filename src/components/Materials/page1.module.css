@@ -2,7 +2,7 @@
     max-width: 100%;
     margin-top: 15rem;
     display: grid;
-    grid-template-columns: 0.9fr 1fr;
+    grid-template-columns: 0.9fr 1.3fr;
     grid-template-areas: "img content ";
     gap: 4rem;
 }
@@ -10,16 +10,21 @@
 .materialimg {
     max-width: 100%;
     grid-area: img;
+    
 }
 
 .materialimg img {
+    transition: transform 0.25s ease-in;
+    transform: scale(1);
     max-width: 100%;
-    height: 100%;
     object-fit: cover;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
     box-shadow: 0 15px 15px 10px rgba(0, 0, 0, 0.3);
 
+}
+.materialimg img:hover{
+    transform: scale(1.05);
 }
 
 .materialcontent {
