@@ -3,7 +3,7 @@ import Nav from '../Navbar/Nav'
 
 const Hero = () => {
   return (
-    <div className={styles.section1}>
+    <div className={styles.hero}>
 
       <Nav />
 
@@ -12,7 +12,7 @@ const Hero = () => {
 
         <h1>Make Your Interior More Minimalistic & Modern</h1>
 
-        <span>Turn your room with panto into a lot more minimalist  and modern with ease and speed</span>
+        <p>Turn your room with panto into a lot more minimalist  and modern with ease and speed</p>
         <input type="text" placeholder='Search Furniture' />
 
       </div>

@@ -1,4 +1,4 @@
-.section1 {
+.hero {
     height: 100vh;
     width: 100%;
     background-image: url("../../assets/img.png");
@@ -9,6 +9,27 @@
     flex-direction: column;
     align-items: center;
 }
+
+.hero::after {  /* Smooth background to white color transition */
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    
+
+    background: linear-gradient(
+        to bottom,
+        transparent 0%,
+        rgba(255, 255, 255, 0.2) 30%,
+        rgba(255, 255, 255, 0.75) 70%,
+        #fff 100%
+    );
+
+    pointer-events: none;
+}
+
 
 
 .written {
@@ -31,11 +52,12 @@
     padding: 25px 0;
 }
 
-.written span {
+.written p {
+    width: 70%;
     line-height: 25px;
     font-weight: 400;
-    font-size: clamp(0.7rem, 1.5vw, 1.2rem);
-
+    font-size: clamp(0.7rem, 1.6vw, 1.1rem);
+    color: lightgrey;
 }
 
 .written input {
