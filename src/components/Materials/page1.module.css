@@ -10,7 +10,7 @@
 .materialimg {
     max-width: 100%;
     grid-area: img;
-    
+
 }
 
 .materialimg img {
@@ -23,7 +23,8 @@
     box-shadow: 0 15px 15px 10px rgba(0, 0, 0, 0.3);
 
 }
-.materialimg img:hover{
+
+.materialimg img:hover {
     transform: scale(1.05);
 }
 
