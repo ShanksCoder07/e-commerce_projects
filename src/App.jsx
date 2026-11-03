@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { Routes, Route } from 'react-router-dom'
 import Hero from './components/Hero/Hero'
+import Nav from './components/Navbar/Nav'
 import Features from './components/Features/Features'
 import Product from './components/Products/Products'
 import Productdetails from './components/Products/Productdetails'
@@ -30,7 +31,11 @@ const App = () => {
         }
         />
         <Route path="/product/:id" element={<Productdetails />} />
-        <Route path="/cart" element={<Cartdetail />}></Route>
+        <Route path="/cart" element={<>
+          <Nav />
+          <Cartdetail />
+        </>}/>
+        
       </Routes>
 
     </div>
