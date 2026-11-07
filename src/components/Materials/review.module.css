@@ -62,7 +62,7 @@
     text-align: center;
     align-items: center;
     margin: auto auto 15px;
-    position:relative;
+    position: relative;
     width: 90%;
     min-height: 35%;
     height: auto;
@@ -86,7 +86,7 @@
 }
 
 .materialdiv img {
-    
+
     height: 55px;
     width: 55px;
     object-fit: cover;
