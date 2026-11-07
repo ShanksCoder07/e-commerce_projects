@@ -136,13 +136,18 @@ button:hover{
     background-color: white;
     border-radius: 50%;
     border: none;
-
+    transform: scale(1);
+    transition: transform 0.2s ease;
     z-index: 100;
 }
 
 .left_btn{
     top: 50%;
     left: 8.2rem;
+}
+
+.left_btn:active,.right_btn:active{
+    transform: scale(0.8);
 }
 
 .right_btn{

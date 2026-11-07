@@ -7,7 +7,7 @@ const Nav = () => {
   const navigate = useNavigate();
 
   return (
-    <div className={styles.navbar}>
+    <nav className={styles.navbar}>
 
       <RiRemixLine />
       <div className={styles.tab}>
@@ -17,7 +17,16 @@ const Nav = () => {
         <h4>About us</h4>
       </div>
       <span onClick={() => navigate('/cart')}><RiShoppingBagLine width={100} /></span>
-    </div>
+      <div className={styles.mobilemenu}>
+        <ul>
+
+        <li>Furniture</li>
+        <li>Shop</li>
+        <li>Contact</li>
+        <li>About us</li>
+        </ul>
+      </div>
+    </nav>
   )
 }
 
