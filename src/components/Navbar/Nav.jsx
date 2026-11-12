@@ -20,6 +20,7 @@ const Nav = () => {
       <div className={styles.mobilemenu}>
         <ul>
 
+        <li className={styles.menu_close}>X</li>
         <li>Furniture</li>
         <li>Shop</li>
         <li>Contact</li>
