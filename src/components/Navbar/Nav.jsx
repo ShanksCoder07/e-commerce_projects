@@ -24,7 +24,7 @@ const Nav = () => {
           <li>Furniture</li>
           <li>Shop</li>
           <li>Contact</li>
-          <li>About us</li>
+           <li>About us</li> 
         </ul>
       </div>
     </nav>
