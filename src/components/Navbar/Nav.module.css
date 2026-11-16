@@ -47,6 +47,9 @@
     transform: scale(0.8);
 }
 
+.hamburger{
+    display: none;
+}
 
 .mobilemenu {
     background-color: rgba(255, 255, 255, 0.3);
@@ -82,4 +85,14 @@
 .mobilemenu li:hover {
     background-color: rgba(0, 0, 0, 0.1);
 
+}
+
+@media (max-width : 768px){
+    .tab{
+        display: none;
+    }
+
+    .hamburger{
+        display: block;
+    }
 }
