@@ -47,7 +47,7 @@
     transform: scale(0.8);
 }
 
-.hamburger{
+.hamburger {
     display: none;
 }
 
@@ -87,12 +87,12 @@
 
 }
 
-@media (max-width : 768px){
-    .tab{
+@media (max-width : 768px) {
+    .tab {
         display: none;
     }
 
-    .hamburger{
+    .hamburger {
         display: block;
     }
 }
