@@ -23,9 +23,9 @@ const Nav = () => {
         setmenu(true)
       }} className={styles.hamburger} />
 
-      {menu && (// Only visible when usestate menu is true
+      
 
-        <div className={styles.mobilemenu}>
+        <div className={`${styles.mobilemenu} ${menu ? styles.active: ""}`}>
           <ul>
 
             <li onClick={() => { setmenu(false) }} >X</li>
@@ -35,7 +35,7 @@ const Nav = () => {
             <li>About us</li>
           </ul>
         </div>
-      )}
+      
     </nav>
   )
 }

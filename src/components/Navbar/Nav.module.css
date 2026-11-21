@@ -52,11 +52,19 @@
 }
 
 .mobilemenu {
-    background-color: rgba(255, 255, 255, 0.3);
+    background-color: rgba(128, 126, 126, 0.6);
 
-    width: 35%;
     height: 100vh;
-    margin-left: auto;
+    position: fixed;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    transform: translateX(100%);
+    transition: transform 0.4s ease;
+}
+
+.mobilemenu.active{
+    transform: translateX(0);
 }
 
 .mobilemenu ul {
@@ -92,6 +100,7 @@
         display: none;
     }
 
+    
     .hamburger {
         display: block;
     }
