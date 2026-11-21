@@ -1,5 +1,4 @@
 import styles from './feature.module.css'
-
 const Section2 = () => {
 
   const product = [
