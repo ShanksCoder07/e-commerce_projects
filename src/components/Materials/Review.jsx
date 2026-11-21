@@ -9,7 +9,7 @@ const Review = () => {
                 <h1>Our Client Reviews</h1>
             </div>
 
-            <div className={style.card}>
+            <div className={style.card_container}>
                 {card.map((item) => (
 
                     <div key={item.id} className={style.materialcard}>

@@ -67,3 +67,11 @@
     font-family: 'gilroy-regular';
     font-weight: 600;
 }
+
+@media (max-width:770px) {
+    .material1{
+        display: flex;
+        flex-direction: column;
+        
+    }
+}

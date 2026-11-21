@@ -3,6 +3,7 @@
     min-height: 90vh;
     height: auto;
     margin: 10rem 0;
+   
 }
 
 .material3_heading h4 {
@@ -29,11 +30,11 @@
     background-position: center;
     background-size: cover;
     border-radius: 25px;
-    width: 350px;
-    height: 450px;
+    min-height: 450px;
     display: flex;
     flex-direction: column;
-    flex: 0 0 auto;
+    flex: 0 0 calc((100% - 60px)/3);/*here the first is growing , second is shrink and the third is width of card
+    here i used calc , to calculate the width of each card to fit in 3 column like 100% width of parent(.card_conatiner) - 60px(2 x 30px gap) and divide by 3 to get the perfect width*/
     scroll-snap-align: start;
     transform: scale(1);
     transition: transform 0.2s ease-in;
@@ -43,7 +44,7 @@
     transform: scale(0.95);
 }
 
-.card {
+.card_container {
     width: 75%;
     display: flex;
     margin: 0 auto;
@@ -52,6 +53,7 @@
     scrollbar-width: none;
     scroll-snap-type: x mandatory;
     gap: 30px;
+    
 }
 
 .materialdiv {
@@ -60,8 +62,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    align-items: center;
-    margin: auto auto 15px;
+    margin: auto auto 1rem;
     position: relative;
     width: 90%;
     min-height: 35%;

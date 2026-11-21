@@ -100,3 +100,11 @@
     font-weight: 600;
     font-size: 0.9rem;
 }
+
+@media (max-width:770px) {
+    .material2{
+        display: flex;
+        flex-direction: column-reverse;
+        
+    }
+}

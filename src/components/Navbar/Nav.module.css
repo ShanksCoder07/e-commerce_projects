@@ -52,19 +52,19 @@
 }
 
 .mobilemenu {
-    background-color: rgba(128, 126, 126, 0.6);
-
+    background-color: rgba(2, 2, 2, 1);
+    width: fit-content;
     height: 100vh;
     position: fixed;
     right: 0;
     top: 0;
     bottom: 0;
-    transform: translateX(100%);
-    transition: transform 0.4s ease;
+    transform: translateX(100%); /*put the menu div to right side of its own width , means it just goes invisible as it is already at the edge*/
+    transition: transform 0.4s ease;/*this makes the animation*/
 }
 
-.mobilemenu.active{
-    transform: translateX(0);
+.mobilemenu.active{/*This is the .active class , which i declared in mobile menu div*/
+    transform: translateX(0);/*puts the menu div back to its position */
 }
 
 .mobilemenu ul {
@@ -76,7 +76,8 @@
 }
 
 .mobilemenu li {
-    padding: 1rem;
+    
+    padding: 0.6rem 0;
     border-radius: 5px;
     transform: scale(1);
     transition: transform 0.2s ease-in;
@@ -85,13 +86,13 @@
 
 
 .mobilemenu li:active {
-    border: 1px solid rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(118, 118, 118, 0.2);
     transform: scale(0.95);
 }
 
 
 .mobilemenu li:hover {
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: rgba(148, 147, 147, 0.1);
 
 }
 
@@ -104,4 +105,6 @@
     .hamburger {
         display: block;
     }
+
+    
 }
