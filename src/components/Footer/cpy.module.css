@@ -1,27 +1,14 @@
 .copyrightbox{
     background-color: black;
-    max-width: 100%;
+    width: 100%;
     color: lightgray;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    
     gap: 25px;
-    padding-bottom: 2rem;
+    padding:0 1rem 2rem;
 }
 
 .copyrightbox h4:first-child{
     margin-right: auto;
-    margin-left: 7rem;
 }
 
-.rightmost{
-    display: flex;
-    gap: 25px; 
-    margin-right: 5em;
-    
-}
-
-.rightmost h4{
-    font-family: 'gilroy-medium';
-    font-weight: 500;
-}

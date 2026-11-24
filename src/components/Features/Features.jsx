@@ -21,7 +21,7 @@ const Section2 = () => {
     <div className={styles.sec2}>
 
       <h1>
-        Why <br />Choosing us
+        Why Choosing us
       </h1>
 
 
